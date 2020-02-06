@@ -25,4 +25,5 @@ Steps To Reproduce:
 Expected Result: when click on the category list, it should show up a list of the category.
 
 Actual Result: the list is blank and doesn’t have anything to choose, which prevent me to save an assignment.
+
 Notes:  check and make sure GUI code is free of bugs
