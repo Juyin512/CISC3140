@@ -7,10 +7,15 @@ Ticket Number: (A number will be generated after the ticket is saved)
 Area Path: Users > Assignments > Creating an Assignment>Selecting a Category of Assignment 
 
 Reported By: Juyin Chen
+
 Reported On: 2/5/2020
+
 Reason: Software Bug/Defect
+
 Environment: Windows 10
+
 Browser used: Chrome & IE
+
 
 Description: In Skedula app under the “create an assignment”, I was trying to save an assignment that I created but when I clicked on the save button, the warning message pops up says that “please select a category before you save it”, however, there no option to select anything under the category list, 
 the list is blank.
