@@ -1,3 +1,7 @@
+ Contributor: Juyin Chen
+ 
+ 
+ 
  Wix was founded in 2006 by Avishai Abrahami, Nadav Abrahami and Giora Kaplan. 
  Its headquarter is located in Tel Aviv, Israel.  
  Wix has offices in San Francisco, New York, Dnepropetrovsk and Vilnius. 
