@@ -1,7 +1,7 @@
  Contributor: Juyin Chen
  
  
-                                                         Wix
+                                                       About Wix
   Wix was founded in 2006 by Avishai Abrahami, Nadav Abrahami and Giora Kaplan. Its headquarter is located in Tel Aviv, Israel.  Wix has offices in San Francisco, New York, Dnepropetrovsk and Vilnius. Wix.com is a cloud-based web building platform that allows users to create and customize HTML5 websites and mobile websites through Wix-developed applications. Wix is designed to be friendly to use for everybody. users can easily create a site using drag and drop elements and online editor. Users also can use various Wix development kit and third-party applications to add multiple functions such as e-commerce, email & online marketing to their websites without any coding knowledges. 
  
    Recent statics indicate that Wix has over 150 million registered users in 190 countries, and 45,000 new users sign up for Wix every day. Wix is running as a business-to-business mode to help the growth of business by offering them free and premium subscriptions to create their own sites. Therefore, the target audience of Wix are mostly small business organizations such as hospitality industries, entrepreneurs, and freelancers who want to promote businesses online. Wix provides all-in-one business solution that allows businessman to connect with customers as well as automate their workflow (such as sell products and get paid online). Wix believes that its users are able to find features and solutions to build a professional website with true creative freedom to manage their business.
@@ -16,6 +16,4 @@
 4)	Verticals: A set of applications that adds value to a Wix site. it uses using an Angular frontend and the Jetty/Spring/Scala stack for backend.
 
 
- Abrahami explains that wix uses JavaScript Object Notation (JSON) than HTML because JSON allows them to respond quickly to various changes and challenges such as making wix runs well in new releases browsers, solving issues with different browsers or mobile devices by just fixing the JS layer without changing the stored site definition.
-
-
+Abrahami explains that wix uses JavaScript Object Notation (JSON) than HTML because JSON allows them to respond quickly to various changes and challenges such as making wix runs well in new releases browsers, solving issues with different browsers or mobile devices by just fixing the JS layer without changing the stored site definition. Therefore, Wix is heavily rely on using JavaScript in both front-end and backend.
