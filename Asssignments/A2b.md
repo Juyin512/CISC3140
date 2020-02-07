@@ -8,7 +8,7 @@ Wix was founded in 2006 by Avishai Abrahami, Nadav Abrahami and Giora Kaplan. It
  
  According to Wix, open source is a part of culture at wix engineering. Some Wix sources code are publicly accessible at their Github page because engineering teams are aim to share useful segment of code with the open source community which allow them to modify and share code to improve collaborative participation, project transparency, and community-oriented development. Furthermore, Wix engineering teams have meetups, workshops, internal/public tech talks, other events ect. weekly where engineers can share what they learned to promote knowledge exchange within their development community sice they believe in knowledge sharing should be the cornerstone of their industry. Wix takes seriously in training their engineers to improve their professional competence, craftsmanship, and technical skills. According to Wix, Wix engineers spend 20% of  their time dedicated in education and personal growth. In addition, wix engineers are encouraged to share ideas cross companies by speaking at conference and contributing to open source projects.
  
- Besides that, wix’s engineering team are working in other aspacts to help out the society. One interesting Wix engineering team event I found is that Wix team has been working with New York City Nonprofits to contribute social good. According to the CISION news, in June 2019, wix hosted a 3-months Wix Design Playground to help New York City nonprofits organizations to create their online presence. The nonprofit teams were taught how to maintain their websites and manage the ties with their own community and audiences. Wix's team provides lectures to more than 10 nonprofits organizations with no charge (https://www.prnewswire.com/news-releases/wix-brings-the-power-of-design-to-new-york-city-nonprofits-300874894.html). 
+ Besides that, wix’s engineering team are working in other aspacts to help out the society. One interesting Wix engineering team event I found is that Wix team has been working with New York City Nonprofits to contribute social good. According to the CISION news, in June 2019, wix hosted a 3-months Wix Design Playground to help New York City nonprofits organizations to create their online presence. The nonprofit teams were taught how to maintain their websites and manage the ties with their own community and audiences. Wix's team provides lectures to more than 10 nonprofits organizations with no charge. (https://www.prnewswire.com/news-releases/wix-brings-the-power-of-design-to-new-york-city-nonprofits-300874894.html) 
   
  In 2006, wix first built a single monolith using Java, Hibernate, Ehcache, Tomcat, and MySQL to serve sites built by wix and support sites built by the users. In 2008, as wix were getting more and more users, it was hard for engineers to maintain both sites using monolith. They then abandoned Hibernate and Ehcache and started using Service Level-driven Architecture to separate serving sites and supporting sites to different microservices. As today, wix has more than 100 microservices, most are based on the Scala programming language, with Jetty, Spring, and their internal framework. In 2011, wix developed their own JavaScript framework to support the HTML5 sites. Meanwhile they use React to build both sites because React is able to implant a simple development framework which works well in building dynamic websites. According to Yoav Abrahami, the Chief Architect at wix, Wix’s current architecture involves 4 main groups of services (https://stackshare.io/wix/scaling-wix-to-60m-users-from-monolith-to-microservices): 
 
@@ -26,9 +26,14 @@ In this research process, I mainly used google as my search engine because it al
 
 References:
 https://websitebuilder.org/wix-statistics/
+
 https://github.com/wix
+
 https://stackshare.io/wix/scaling-wix-to-60m-users-from-monolith-to-microservices
+
 https://www.wix.engineering/
+
 https://www.wix.engineering/life-at-wix
+
 https://www.prnewswire.com/news-releases/wix-brings-the-power-of-design-to-new-york-city-nonprofits-300874894.html
 
