@@ -1,16 +1,20 @@
  Contributor: Juyin Chen
  
  
+                                                         Wix
+  Wix was founded in 2006 by Avishai Abrahami, Nadav Abrahami and Giora Kaplan. Its headquarter is located in Tel Aviv, Israel.  Wix has offices in San Francisco, New York, Dnepropetrovsk and Vilnius. Wix.com is a cloud-based web building platform that allows users to create and customize HTML5 websites and mobile websites through Wix-developed applications. Wix is designed to be friendly to use for everybody. users can easily create a site using drag and drop elements and online editor. Users also can use various Wix development kit and third-party applications to add multiple functions such as e-commerce, email & online marketing to their websites without any coding knowledges. 
  
- Wix was founded in 2006 by Avishai Abrahami, Nadav Abrahami and Giora Kaplan. 
- Its headquarter is located in Tel Aviv, Israel.  
- Wix has offices in San Francisco, New York, Dnepropetrovsk and Vilnius. 
- Wix.com is a cloud-based web building platform that allows users to create and customize HTML5 websites 
- and mobile websites through Wix-developed applications. Wix is designed to be friendly to use for everybody. 
- users can easily create a site using drag and drop elements. 
- Users also can use various Wix development kit and third-party applications to add multiple functions 
- such as e-commerce, email & online marketing to their websites without any coding knowledges. 
- 
- Recent statics indicates that Wix has over 150 million registered users in 190 countries, and 45,000 new users sign up for Wix every day. Wix is running as a business-to-business mode to help the growth of business by offering them free and premium subscriptions to create their own sites. Therefore, the target audience of Wix are mostly small business organizations such as hospitality industries, entrepreneurs, and freelancers who want to promote businesses online. Wix provides all-in-one business solution that allows businessman to connect with customers as well as automate their workflow (such as sell products and get paid online). Wix believes that its users are able to find features and solutions to build a professional website with true creative freedom to manage their business.
+   Recent statics indicate that Wix has over 150 million registered users in 190 countries, and 45,000 new users sign up for Wix every day. Wix is running as a business-to-business mode to help the growth of business by offering them free and premium subscriptions to create their own sites. Therefore, the target audience of Wix are mostly small business organizations such as hospitality industries, entrepreneurs, and freelancers who want to promote businesses online. Wix provides all-in-one business solution that allows businessman to connect with customers as well as automate their workflow (such as sell products and get paid online). Wix believes that its users are able to find features and solutions to build a professional website with true creative freedom to manage their business.
  
  According to Wix, open source is a part of culture at wix engineering. Some Wix sources code is publicly accessible at their Github pages because engineering teams are aim to share useful segment of their code with the open source community which allow them to modify and share code to encourage collaborative participation, project transparency, and community-oriented development. Furthermore, Wix engineering teams have meetups, workshops, internal/public tech talks and other events weekly where engineers can share what they learned to promote knowledge exchange within their development community. They believe in knowledge sharing should be the cornerstone of their industry. Wix takes seriously in training their engineers to improve their professional competence, craftsmanship, and technical skills. According to Wix, Wix engineers spend 20% of  their time dedicated in education and personal growth. In addition, wix engineers are encouraged to share ideas cross companies by speaking at conference and contributing to open source projects.
+ 
+ In 2006, wix first built a single monolith using Java, Hibernate, Ehcache, Tomcat, and MySQL to serve sites built by wix and support sites built by the users. In 2008, as wix were getting more and more users, it was hard for engineers to maintain both sites using monolith. They then abandoned Hibernate and Ehcache and started using Service Level-driven Architecture to separate serving sites and supporting sites to different microservices. As today, wix has more than 100 microservices, most are based on the Scala programming language, with Jetty, Spring, and our internal framework. In 2011, wix developed their own JavaScript framework to support the HTML5 sites. Meanwhile they use React to build both sites because React is able to implant a simple development framework which works well in building dynamic websites. According to Yoav Abrahami, the Chief Architect at wix, Wix’s current architecture involves 4 main groups of services: 
+
+1) Wix Public: microservices that is responsible for hosting and serving published Wix sites. It uses MySQL and Jetty/Spring/Scala applications to serve the HTML of a site from the data the Editor has created. 
+2)Wix Editor: microservices written in javaScript to create a site.
+3) WixMP: a media filesystem integrated with CDNs, SSL, etc.  which is responsible for delivering media. mainly running on google and amazon.
+4) Verticals: A set of applications that adds value to a Wix site. it uses using an Angular frontend and the Jetty/Spring/Scala stack for backend.
+
+ Abrahami explains that wix uses JavaScript Object Notation (JSON) than HTML because JSON allows them to respond quickly to various changes and challenges such as making wix runs well in new releases browsers, solving issues with different browsers or mobile devices by just fixing the JS layer without changing the stored site definition.
+
+
