@@ -1,0 +1,122 @@
+Script started on Sat Feb 29 20:45:31 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ cat[K[K[Kcat /Users/juyinchen/Desktop/regional-global-daily-latest.csv  | cut - d',' -f3 | sort   -f | uniq
+
+ DaBaby & Lil Baby) - Remix"
+ Gunna and London On Da Track)"
+ next"
+ Pt. II"
+000 Hours (with Justin Bieber)"
+24kGoldn
+5 Seconds of Summer
+Ali Gatie
+Anuel AA
+Apache 207
+Arcangel
+Ariana Grande
+Arizona Zervas
+Artist
+Ashe
+Ava Max
+Bad Bunny
+benny blanco
+Billie Eilish
+Black Eyed Peas
+blackbear
+BROCKHAMPTON
+BTS
+Camila Cabello
+Capital Bra
+Chris Brown
+Conan Gray
+DaBaby
+Daddy Yankee
+Dalex
+Dimelo Flow
+DJ Snake
+Doja Cat
+Don Toliver
+Drake
+Dua Lipa
+Ed Sheeran
+Ellie Goulding
+Eminem
+Future
+G Herbo
+G-Eazy
+Halsey
+Harry Styles
+Henrique & Juliano
+Imagine Dragons
+J Balvin
+Jack Harlow
+JACKBOYS
+James Arthur
+Jhay Cortez
+John Legend
+Jonas Brothers
+JP Saxe
+Juice WRLD
+Justin Bieber
+KAROL G
+Khalid
+Kina
+Kygo
+Lady Gaga
+Lauv
+Lewis Capaldi
+Lil Baby
+Lil Mosey
+Lil Nas X
+Lil Tecca
+Lil Uzi Vert
+Lizzo
+Lunay
+Major Lazer
+Maroon 5
+Marshmello
+Martin Garrix
+MEDUZA
+Mustard
+Myke Towers
+Niall Horan
+Nicky Jam
+Noah Cyrus
+Panic! At The Disco
+Polo G
+Pop Smoke
+Post Malone
+Powfu
+Queen
+Rauw Alejandro
+Regard
+Reik
+Residente
+Rich Music LTD
+Roddy Ricch
+SAINt JHN
+Sam Smith
+Sech
+Selena Gomez
+SHAED
+Shakira
+Shawn Mendes
+Stormzy
+Surfaces
+SZA
+Tainy
+Taylor Swift
+The Chainsmokers
+The Weeknd
+TOKYO’S REVENGE
+Tones and I
+Travis Scott
+Trevor Daniel
+Tyga
+XXXTENTACION
+Y2K
+YNW Melly
+bash-3.2$ 
