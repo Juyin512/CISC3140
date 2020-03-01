@@ -1,9 +1,13 @@
+//Sorry I was not able to get an accurate output for this practice, I couldn't find out why the first 5 lines of my output display some content from the second column.
+
+
 Script started on Sat Feb 29 20:45:31 2020
 
 The default interactive shell is now zsh.
 To update your account to use zsh, please run `chsh -s /bin/zsh`.
 For more details, please visit https://support.apple.com/kb/HT208050.
-[?1034hbash-3.2$ cat[K[K[Kcat /Users/juyinchen/Desktop/regional-global-daily-latest.csv  | cut - d',' -f3 | sort   -f | uniq
+[?1034hbash-3.2$ cat[K[K[Kcat /Users/juyinchen/Desktop/regional-global-daily-latest.csv  | cut - 
+d',' -f3 | sort   -f | uniq
 
  DaBaby & Lil Baby) - Remix"
  Gunna and London On Da Track)"
