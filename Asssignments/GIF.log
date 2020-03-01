@@ -1,0 +1,8 @@
+Script started on Sat Feb 29 20:02:32 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ cd /Users/juyinchen/Desktop/source 
+bash-3.2$ convert -delay 35 -loop 0 rb*.png rb.gif
+bash-3.2$ 
