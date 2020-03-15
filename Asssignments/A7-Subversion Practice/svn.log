@@ -1,1 +1,109 @@
+Script started on Sun Mar 15 13:09:15 2020
 
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ svnadmin create /Users/juyinchen/svn2Repo
+bash-3.2$ svn checkout file:///users/juyinchen/svn2Repo
+Checked out revision 0.
+bash-3.2$ svn import -m "New import" HTML1 file:///users/juyinchen/svn2Repo/some /project \
+> 
+Adding         HTML1/Adding a Link.html
+Adding         HTML1/Adding a Picture.html
+Adding         HTML1/Adding a Video.html
+Adding         HTML1/Adding an audio.html
+Adding         HTML1/BulletedList.html
+Adding         HTML1/CSS
+Adding         HTML1/CSS/firstCSS.html
+Adding         HTML1/CSS/style.css
+Adding         HTML1/Creating a tablet.html
+Adding         HTML1/Different Type of inputs (email, telephone, messages.html
+Adding         HTML1/Different Type of inputs.html
+Adding         HTML1/HTML Comment.html
+Adding         HTML1/HTML Document Structure.html
+Adding         HTML1/HTML List.html
+Adding  (bin)  HTML1/HTML Notes.docx
+Adding         HTML1/HTML from.html
+Adding  (bin)  HTML1/Huanchangchen.docx
+Adding         HTML1/JavaScript.html
+Adding         HTML1/Navigation.html
+Adding         HTML1/Non Semantic Element <div> <span>.html
+Adding         HTML1/Organizing Headings.html
+Adding         HTML1/Semantic Structural Elements.html
+Adding         HTML1/Special Characters.html
+Adding         HTML1/The Section Element.html
+Adding         HTML1/app.js
+Adding         HTML1/audio
+Adding  (bin)  HTML1/audio/Canon.mp3
+Adding  (bin)  HTML1/audio/River Flows in You.mp3
+Adding         HTML1/choosing between a set of options.html
+Adding         HTML1/favorite-colors.html
+Adding         HTML1/helloWorld.html
+Adding         HTML1/image
+Adding  (bin)  HTML1/image/1.png
+Adding  (bin)  HTML1/image/3.png
+Adding         HTML1/testing.html
+Committing transaction...
+Committed revision 1.
+bash-3.2$ svn checkout file:///users/juyinchen/svn2Repo
+A    svn2Repo/some
+A    svn2Repo/some/project
+A    svn2Repo/some/project/Adding a Link.html
+A    svn2Repo/some/project/Adding a Picture.html
+A    svn2Repo/some/project/Adding a Video.html
+A    svn2Repo/some/project/Adding an audio.html
+A    svn2Repo/some/project/BulletedList.html
+A    svn2Repo/some/project/CSS
+A    svn2Repo/some/project/CSS/firstCSS.html
+A    svn2Repo/some/project/CSS/style.css
+A    svn2Repo/some/project/Creating a tablet.html
+A    svn2Repo/some/project/Different Type of inputs (email, telephone, messages.html
+A    svn2Repo/some/project/Different Type of inputs.html
+A    svn2Repo/some/project/HTML Comment.html
+A    svn2Repo/some/project/HTML Document Structure.html
+A    svn2Repo/some/project/HTML List.html
+A    svn2Repo/some/project/HTML Notes.docx
+A    svn2Repo/some/project/HTML from.html
+A    svn2Repo/some/project/Huanchangchen.docx
+A    svn2Repo/some/project/JavaScript.html
+A    svn2Repo/some/project/Navigation.html
+A    svn2Repo/some/project/Non Semantic Element <div> <span>.html
+A    svn2Repo/some/project/Organizing Headings.html
+A    svn2Repo/some/project/Semantic Structural Elements.html
+A    svn2Repo/some/project/Special Characters.html
+A    svn2Repo/some/project/The Section Element.html
+A    svn2Repo/some/project/app.js
+A    svn2Repo/some/project/audio
+A    svn2Repo/some/project/audio/Canon.mp3
+A    svn2Repo/some/project/audio/River Flows in You.mp3
+A    svn2Repo/some/project/choosing between a set of options.html
+A    svn2Repo/some/project/favorite-colors.html
+A    svn2Repo/some/project/helloWorld.html
+A    svn2Repo/some/project/image
+A    svn2Repo/some/project/image/1.png
+A    svn2Repo/some/project/image/3.png
+A    svn2Repo/some/project/testing.html
+Checked out revision 1.
+bash-3.2$ svn commit /Users/juyinchen/svn2Repo/some/project/testing.html -m "com mit a change in testing.html "
+Sending        svn2Repo/some/project/testing.html
+Transmitting file data .done
+Committing transaction...
+Committed revision 2.
+bash-3.2$ svn commit /Users/juyinchen/svn2Repo/some/project/BulletedList.html -m  "commit a change in BulletedList.html "
+Sending        svn2Repo/some/project/BulletedList.html
+Transmitting file data .done
+Committing transaction...
+Committed revision 3.
+bash-3.2$ svn import -m "New import" makeFileProject file:///users/juyinchen/svn 2Repo/some/project \
+> 
+Adding         makeFileProject/Makefile
+Adding         makeFileProject/message.cpp
+Adding         makeFileProject/message.h
+Committing transaction...
+Committed revision 4.
+bash-3.2$ make[K[K[K[Kmake
+g++ -c message.cpp
+g++ main.o message.o -o output
+bash-3.2$ ./output
+Message prints from makefile: this is a makefile example.
+bash-3.2$ 
