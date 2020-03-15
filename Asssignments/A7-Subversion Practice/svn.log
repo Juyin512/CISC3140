@@ -6,7 +6,8 @@ For more details, please visit https://support.apple.com/kb/HT208050.
 [?1034hbash-3.2$ svnadmin create /Users/juyinchen/svn2Repo
 bash-3.2$ svn checkout file:///users/juyinchen/svn2Repo
 Checked out revision 0.
-bash-3.2$ svn import -m "New import" HTML1 file:///users/juyinchen/svn2Repo/some /project \
+bash-3.2$ svn import -m "New import" HTML1 file:///users/juyinchen/svn2Repo/some 
+/project \
 > 
 Adding         HTML1/Adding a Link.html
 Adding         HTML1/Adding a Picture.html
@@ -84,17 +85,20 @@ A    svn2Repo/some/project/image/1.png
 A    svn2Repo/some/project/image/3.png
 A    svn2Repo/some/project/testing.html
 Checked out revision 1.
-bash-3.2$ svn commit /Users/juyinchen/svn2Repo/some/project/testing.html -m "com mit a change in testing.html "
+bash-3.2$ svn commit /Users/juyinchen/svn2Repo/some/project/testing.html -m "com 
+mit a change in testing.html "
 Sending        svn2Repo/some/project/testing.html
 Transmitting file data .done
 Committing transaction...
 Committed revision 2.
-bash-3.2$ svn commit /Users/juyinchen/svn2Repo/some/project/BulletedList.html -m  "commit a change in BulletedList.html "
+bash-3.2$ svn commit /Users/juyinchen/svn2Repo/some/project/BulletedList.html -m 
+ "commit a change in BulletedList.html "
 Sending        svn2Repo/some/project/BulletedList.html
 Transmitting file data .done
 Committing transaction...
 Committed revision 3.
-bash-3.2$ svn import -m "New import" makeFileProject file:///users/juyinchen/svn 2Repo/some/project \
+bash-3.2$ svn import -m "New import" makeFileProject file:///users/juyinchen/svn 
+2Repo/some/project \
 > 
 Adding         makeFileProject/Makefile
 Adding         makeFileProject/message.cpp
