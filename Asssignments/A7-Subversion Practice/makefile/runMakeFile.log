@@ -1,0 +1,10 @@
+Script started on Sun Mar 15 13:43:50 2020
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+[?1034hbash-3.2$ make
+make: `output' is up to date.
+bash-3.2$ ./output
+Message prints from makefile: this is a makefile example.
+bash-3.2$ 
