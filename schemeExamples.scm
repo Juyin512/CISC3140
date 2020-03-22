@@ -64,3 +64,6 @@
 ; Find the 2nd item of a list using car and cdr functions
 (define secondItem (lambda (xs)
   (car (cdr xs))))
+
+;;convertng F to C
+ (define cel (lambda (n) (/(*(- n 32) 5) 9))
