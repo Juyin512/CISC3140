@@ -1,3 +1,5 @@
+pwd: show current path
+
 cd (“change directory”): is used to change the current working directory
 
 mkdir: create a directory
