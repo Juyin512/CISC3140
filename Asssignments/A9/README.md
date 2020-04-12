@@ -6,4 +6,3 @@ map.css constructs the view of the map
 
 map.js calls and invokes data from google map
 
-file:///Users/juyinchen/Desktop/HTML/Map/map1.html
