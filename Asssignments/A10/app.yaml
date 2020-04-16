@@ -1,1 +1,21 @@
+runtime: python27
+api_version: 1
+threadsafe: true
 
+handlers:
+- url: /
+  static_files: www/map1.html
+  upload: www/map1.html
+
+- url: /
+  static_files: www/map.js
+  upload: www/map.js
+
+- url: /
+  static_files: www/map.css
+  upload: www/map.css
+
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
