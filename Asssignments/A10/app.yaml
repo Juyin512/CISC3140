@@ -4,16 +4,16 @@ threadsafe: true
 
 handlers:
 - url: /
-  static_files: www/map1.html
-  upload: www/map1.html
+  static_files: www/map.html
+  upload: www/map.html
 
 - url: /
-  static_files: www/map.js
-  upload: www/map.js
+  static_files: www/js/map.js
+  upload: www/js/map.js
 
 - url: /
-  static_files: www/map.css
-  upload: www/map.css
+  static_files: www/css/map.css
+  upload: www/css/map.css
 
 
 - url: /(.*)
