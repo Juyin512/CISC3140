@@ -15,8 +15,6 @@ var pausebtn= document.getElementById('pause');
 
 function playAudio() { 
   myAudio.play();
-  alert("<<Canon and Gigue in D>> is playing ")
-
 } 
 
 function pauseAudio() { 
