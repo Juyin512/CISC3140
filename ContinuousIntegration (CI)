@@ -6,6 +6,7 @@ Benefits:
 integrating regularly is that you can detect errors quickly and locate them more easily. 
 significantly reduced integration problems and allows a team to develop cohesive software more rapidly.
 
+Build: "build" basically means 'compile code', 
 
 Build automation two major components:
 The process for transformation source artifacts (code, database schema, documentation, etc.)
