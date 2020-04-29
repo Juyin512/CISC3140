@@ -1,0 +1,12 @@
+svn checkout <filename>: the svn checkout command checks out a working copy from the repository. This command is sometimes shortened to svn co.
+
+svn import <filename>: commits an unversioned tree of files into a repository
+
+svn commit: the svn commit command sends your changes back to the SVN server.
+
+svn add: the svn add command will add a new file to the repository 
+— but only after you've done a svn commit.
+
+svn delete: The svn delete command will delete a file from your working copy of the repository. 
+
+svn log: the svn log command shows log messages from the repository.
