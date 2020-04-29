@@ -1,0 +1,27 @@
+Continuous Integration (CI)
+Continuous Integration (CI) is a development practice where developers integrate code into a shared repository frequently, preferably several times a day. 
+Each integration can then be verified by an automated build and automated tests.
+
+Benefits: 
+integrating regularly is that you can detect errors quickly and locate them more easily. 
+significantly reduced integration problems and allows a team to develop cohesive software more rapidly.
+
+
+Build automation two major components:
+The process for transformation source artifacts (code, database schema, documentation, etc.)
+Compilation
+Linking
+Packaging
+Deployment
+Data migration
+Backup
+Notification
+
+The application of quality assurance measures during said transformation
+Compiler warnings / errors
+Unit tests
+Integration tests
+System tests
+Deployment authentication
+
+good CI tools will let you address all of these concerns. 
