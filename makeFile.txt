@@ -7,3 +7,8 @@ The make command allows you to manage large programs or groups of programs.
 As you begin to write large programs, you notice that re-compiling large programs takes longer time than re-compiling short programs. 
 Moreover, you notice that you usually only work on a small section of the program ( such as a single function ), and much of the remaining program is unchanged.
 
+Advantages:
+It makes codes more concise and clear to read and debug.
+No need to compile entire program every time whenever you make a change to a functionality or a class. Makefile will automatically compile only those files where change has occurred.
+Generally, in long codes or projects, Makefile is widely used in order to present project in more systematic and efficient way.
+
