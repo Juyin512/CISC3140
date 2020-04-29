@@ -1,0 +1,9 @@
+Makefiles are special format files that help build and manage the projects automatically.
+Allows managing large programs with a lot of dependencies.
+
+
+Purpose of makefile: 
+The make command allows you to manage large programs or groups of programs. 
+As you begin to write large programs, you notice that re-compiling large programs takes longer time than re-compiling short programs. 
+Moreover, you notice that you usually only work on a small section of the program ( such as a single function ), and much of the remaining program is unchanged.
+
