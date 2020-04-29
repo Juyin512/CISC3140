@@ -4,7 +4,7 @@ cd (“change directory”): is used to change the current working directory
 
 mkdir: create a directory
 
-cat: view a file (txt)
+cat: view a file (txt), lists the contents of files to the terminal window
 
 grep:  is a filter that is used to search for lines matching a specified pattern and print the matching lines to standard output
 
@@ -19,3 +19,7 @@ curl: transfers/download data to or from a network server, curl supports FTP, FT
 wget: downloading files from the Internet. wget's major strong side compared to curl is its ability to download recursively.
 
 unzip: unzip files
+
+echo: echo command prints (echoes) a string of text to the terminal window.
+
+
