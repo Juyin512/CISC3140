@@ -1,1 +1,27 @@
+body {
+	background-color: lightpink;
+}
 
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black
+}
+
+input:focus {
+  border-color: black
+}
+
+input[type="text"]
+{
+    font-size:40px;
+}
+.formatter {
+  font-family: "Lucida Console", Courier, monospace;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
