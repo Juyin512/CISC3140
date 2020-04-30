@@ -1,1 +1,21 @@
+runtime: python27
+api_version: 1
+threadsafe: true
 
+handlers:
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /
+  static_files: www/js/script.js
+  upload: www/js/script.js
+
+- url: /
+  static_files: www/css/style.css
+  upload: www/css/style.css
+
+
+- url: /(.*)
+  static_files: www/\1
+  upload: www/(.*)
